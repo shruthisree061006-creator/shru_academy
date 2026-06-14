@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./assests/index.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar1">
+                    <img src="./assests/images/SHRU ACADEMY.png" alt="Academy Logo" class="Academylogo1">
+                </div>
+                <div class="logosidehead">
+                    <h1>SHRU's ACADEMY</h1>
+                    <h3>Learn • Grow • Achieve</h3>
+                </div>
+                <div class="navbar2">
+                   <h3> <a href="#HOME">Home</a></h3>
+                   <h3><a href="#ABOUT">About</a></h3>
+                   <h3><a href="#EVENT">Event</a></h3>
+                   <h3><a href="#ADDEVENT">Add Event</a></h3>
+                   <h3><a href="#CONTACT">Contact</a></h3>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section>
+        <div class="container">
+            <div class="heropage" id="HOME">
+                <div class="heropage1">
+                    <img src="./assests/images/ChatGPT Image Jun 13, 2026, 08_58_44 PM.png" alt="Heropage Image" class="heropageimg1">
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <!-- About Section -->
+     <section>
+        <!-- <div class="about">
+            <h1>About</h1>
+        </div> -->
+        <div class="container">
+
+        <div class="aboutsection" id="ABOUT">
+            <div class="aboutsession1">
+                <img src="./assests/images/shru clg1.png" alt="Collage image" class="aboutclgimg1">
+            </div>
+            <div  class="about-content">
+                <h2>About SHRU's Academy</h2>
+                <p>SHRU's Academy is dedicated to empowering students through quality education, practical learning, and skill development. We believe that every student has the potential to achieve greatness when provided with the right guidance and opportunities.Our academy focuses on fostering creativity, leadership, innovation, and lifelong learning. Through workshops, events, training programs, and interactive activities, we help students build confidence and prepare for future success.At SHRU's Academy, our mission is to inspire minds, nurture talents, and create future leaders who can make a positive impact on society.</p>
+                <!-- <p>SHRU's Academy is a student-focused learning platform dedicated to</p>
+                <p>providing quality education, skill development, and practical</p>
+                <p>knowledge. We aim to inspire students to learn, grow, and achieve</p>
+                <p>their goals through innovative programs, workshops, and events.</p>
+                <p>Learn • Grow • Achieve</p> -->
+            </div>
+        </div>
+        </div>
+     </section>
+
+     <!--EVENT SECTION-->
+     <section>
+        <div class="container">
+        <div class="eventsection" id="EVENT">
+            <div class="eventsession">
+                <h2>Upcoming Events</h2>
+            </div>
+            <center>
+            <div class="displaydivname">
+                <table class="eventsestiontable">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Location</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="displaydiv">
+            
+                    </tbody>
+
+                </table>
+           
+            </div>
+            </center>
+        </div>
+            <div class="eventcontainer" id="eventcontainer" >
+              <p >No events added yet.</p>  
+            </div>
+        </div>
+        </div>
+     </section>
+
+    
+
+<!--EDIT EVENT-->
+<section>
+    <div class="container">
+
+        <div class="addeventheading" id="ADDEVENT">
+            <h2>Add Event</h2>
+        </div>
+
+        <div class="addeventform">
+            
+
+            <input type="text" id="eventImage" >
+            <input type="text" placeholder="Enter Event Name" id="eventName" required>
+            <input type="date" id="eventDate" required>
+            <input type="text" placeholder="Enter Location" id="eventLocation" required>
+            <input type="text" placeholder="Enter Category" id="eventCategory" required>
+            <textarea placeholder="Enter Event Description" id="eventDescription" required></textarea>
+            
+
+            <button id="addbtn">Add Event</button>
+
+        </div>
+
+    </div>
+
+    <section>
+    <div class="quicklinks">
+    <a href="#DESTINATION">Destination</a>
+    <a href="#PROMOTION">Promotion</a>
+    <a href="#PLACES">Places</a>
+    <a href="#HOTELS">Hotels</a>
+    <a href="#CONTACT">Contact</a>
+</div>
+</section>
+<section>
+    <div class="container">
+ <div class="contactuspage" id="CONTACT">
+
+    <div class="footerleft">
+
+        <img src="./assests/images/SHRU ACADEMY.png"
+             alt="SHRU's Academy logo"
+             class="contactusimg1">
+
+        <div class="academytext">
+            <h1>SHRU's ACADEMY</h1>
+            <p>© 2026 All Rights Reserved</p>
+        </div>
+
+    </div>
+
+    <div class="footercenter">
+        <h2>Thank You.....</h2>
+    </div>
+
+    <div class="socialicons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+</div>
+</div>
+</section>
+     
+    <script src="./js/index.js"></script>
+</body>
+</html>
+        

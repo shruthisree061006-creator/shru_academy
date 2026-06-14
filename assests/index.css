@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Academylogo1{
+    width: 65px;
+    height: auto;
+}
+
+.logosidehead h1{
+    font-size: 12px;
+    margin: 10px;
+}
+
+.logosidehead h3{
+    font-size: 10px;
+    margin: 10px;
+}
+
+.navbar2{
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.navbar2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar2 a:hover{
+    color: #4f46e5;
+}
+
+
+/* heropage */
+.heropageimg1{
+    width: 100%;
+    height: 650px;
+    display: block;
+    border: 3px solid yellow;
+}
+
+/* .about{
+    justify-content: center;
+    font-size: 28px;
+    color: navy;
+} */
+ body{
+    overflow-x: hidden;
+}
+.aboutsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
+    color: darkgoldenrod;
+    background: whitesmoke;
+}
+
+.aboutclgimg1{
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid yellow
+}
+
+.about-content h2{
+    font-size: 37px;
+    margin-bottom: 20px;
+    color:navy;
+}
+
+.about-content p{
+    font-size: 19px;
+    line-height: 2;
+    text-align: justify;
+    
+}
+
+/* /*Event/* */
+
+/* .eventsection{
+    border: 1px solid wheat;
+    background-color: whitesmoke;
+} */
+.eventsession{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.eventsession h2{
+    color: navy;
+    font-size: 37px;
+}
+
+.eventcontainer p{
+    color: goldenrod;
+    font-size: 27px;
+    text-align: center;
+    padding: 20px;
+}
+.eventsestiontable{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.eventsestiontable th{
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.eventsestiontable td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.eventsestiontable tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+/* edit event */
+
+.addeventheading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.addeventheading h2{
+    font-size: 35px;
+    color: darkblue;
+}
+
+.addeventform{
+    width: 400px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.addeventform input{
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.addeventform textarea{
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+#addbtn{
+    color: goldenrod;
+    border-radius: 20px;
+    border: 2px solid navy;
+    width: 400px;
+    height: 45px;
+    background-color: navy;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.formimg{
+    width: 200px;
+    height: auto;
+    
+}
+
+.inputtagborder{
+    border: 0px ;
+    text-align: center;
+}
+/*QUICKLINE*/
+
+.quicklinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    color:navy;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.quicklinks a:hover{
+    color: orange;
+    transform: translateY(-3px);
+}
+/* footer */
+.contactuspage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(9, 9, 9);
+    border: 2px solid yellow;
+}
+
+.footerleft{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactusimg1{
+    width: 65px;
+    height: auto;
+}
+
+.academytext{
+    display: flex;
+    flex-direction: column;
+}
+
+.academytext h1{
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+.academytext p{
+    margin: 5px 0 0 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.footercenter{
+    flex: 1;
+    text-align: center;
+}
+
+.footercenter h2{
+    font-size: 24px;
+    color: white;
+    
+}
+
+.socialicons{
+    display: flex;
+    gap: 15px;
+}
+
+.socialicons a{
+    font-size: 24px;
+    color: purple;
+    transition: 0.3s;
+}
+
+.socialicons a:hover{
+    color: darkblue;
+}
+.socialicons{
+    display: flex;
+    gap: 15px;
+}
+
+.socialicons a{
+    font-size: 20px;
+    color: rgb(244, 241, 244);
+}
