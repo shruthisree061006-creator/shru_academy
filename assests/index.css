@@ -191,9 +191,60 @@
     
 }
 
+.displaydivname{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.eventsestiontable{
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.eventsestiontable th,
+.eventsestiontable td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
 .inputtagborder{
     border: 0px ;
     text-align: center;
+}
+
+.editbtn,
+.savebtn,
+.deletebtn{
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.editbtn{
+    background-color: #2563eb;
+}
+
+.savebtn{
+    background-color: #16a34a;
+}
+
+.deletebtn{
+    background-color: #dc2626;
+}
+
+.editbtn:hover,
+.savebtn:hover,
+.deletebtn:hover{
+    transform: scale(1.08);
+    opacity: 0.9;
 }
 /*QUICKLINE*/
 

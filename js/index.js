@@ -92,14 +92,17 @@ addbtn.addEventListener("click",function crudprogram(){
     const neweditbutton = document.createElement("button");
     neweditbutton.innerHTML = "Edit"
     Actionstd.appendChild(neweditbutton);
+    neweditbutton.classList.add("editbtn");
 
     const newsavebutton = document.createElement("button");
     newsavebutton.innerHTML = "Save";
     Actionstd.appendChild(newsavebutton);
+    newsavebutton.classList.add("editbtn");
 
-      const newdeletebutton = document.createElement("button");
+    const newdeletebutton = document.createElement("button");
     newdeletebutton.innerHTML = "Delete";
     Actionstd.appendChild(newdeletebutton);
+    newdeletebutton.classList.add("editbtn");
 
     trcreate.appendChild(eventImagevaluetd);
     trcreate.appendChild(eventNamevaluestd);
