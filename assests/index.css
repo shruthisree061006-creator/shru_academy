@@ -101,6 +101,11 @@
     border: 1px solid wheat;
     background-color: whitesmoke;
 } */
+
+.centertag{
+    display: flex;
+    justify-content: center;
+}
 .eventsession{
     text-align: center;
     margin-top: 30px;
